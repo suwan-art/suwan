@@ -10,3 +10,4 @@ question = st.text_area("소감", placeholder="소감")
 if st.button("확인"):
         st.success(f"{user_id}/{ai_model}/{clas_s}/{ai_speed}")
         st.markdown(f"점수:{creativity}")
+        st.info(f"소감:{question}")
