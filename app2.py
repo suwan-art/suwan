@@ -8,4 +8,4 @@ ai_speed = st.select_slider("난이도",options=["쉬움", "보통", "어려움"
 creativity = st.slider("점수", 0, 100, 50)
 question = st.text_area("소감", placeholder="소감")
 if st.button("확인"):
-        st.success(f"{user_id}")
+        st.success(f"({user_id})")
